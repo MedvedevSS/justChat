@@ -3,27 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DC310C7827205D23006FF590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC310C7727205D23006FF590 /* AppDelegate.swift */; };
 		DC310C7A27205D23006FF590 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC310C7927205D23006FF590 /* SceneDelegate.swift */; };
-		DC310C7C27205D23006FF590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC310C7B27205D23006FF590 /* ViewController.swift */; };
 		DC310C7F27205D23006FF590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC310C7D27205D23006FF590 /* Main.storyboard */; };
 		DC310C8127205D24006FF590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC310C8027205D24006FF590 /* Assets.xcassets */; };
 		DC310C8427205D24006FF590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC310C8227205D24006FF590 /* LaunchScreen.storyboard */; };
+		DC310C8C27205EAF006FF590 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC310C8B27205EAF006FF590 /* GoogleService-Info.plist */; };
+		DC310C91272071CD006FF590 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC310C90272071CD006FF590 /* LoginViewController.swift */; };
+		DC8BF6C82721500400855262 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BF6C72721500400855262 /* Model.swift */; };
+		DC8BF6CA27215D6500855262 /* SliderSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BF6C927215D6500855262 /* SliderSlides.swift */; };
+		DC8BF6CC27215F6100855262 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BF6CB27215F6100855262 /* RegViewController.swift */; };
+		DC8BF6CE27215F7300855262 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BF6CD27215F7300855262 /* AuthViewController.swift */; };
+		DC8BF6D02721612200855262 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8BF6CF2721612200855262 /* AppViewController.swift */; };
+		DCEF1D6A27207AE900F0C158 /* SlideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF1D6827207AE900F0C158 /* SlideCollectionViewCell.swift */; };
+		DCEF1D6B27207AE900F0C158 /* SlideCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEF1D6927207AE900F0C158 /* SlideCollectionViewCell.xib */; };
+		FAA31B96A2D37B431303D4EC /* Pods_justChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8A7639FD6FA5F5541D3D12 /* Pods_justChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032318D0C81EE4E9312BDCBA /* Pods-justChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-justChat.debug.xcconfig"; path = "Target Support Files/Pods-justChat/Pods-justChat.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8A7639FD6FA5F5541D3D12 /* Pods_justChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_justChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C9E162954F6DF5F59E68A3 /* Pods-justChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-justChat.release.xcconfig"; path = "Target Support Files/Pods-justChat/Pods-justChat.release.xcconfig"; sourceTree = "<group>"; };
 		DC310C7427205D23006FF590 /* justChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = justChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC310C7727205D23006FF590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC310C7927205D23006FF590 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC310C7B27205D23006FF590 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC310C7E27205D23006FF590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC310C8027205D24006FF590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC310C8327205D24006FF590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC310C8527205D24006FF590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC310C8B27205EAF006FF590 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DC310C90272071CD006FF590 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC8BF6C72721500400855262 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DC8BF6C927215D6500855262 /* SliderSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSlides.swift; sourceTree = "<group>"; };
+		DC8BF6CB27215F6100855262 /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
+		DC8BF6CD27215F7300855262 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		DC8BF6CF2721612200855262 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		DCEF1D6827207AE900F0C158 /* SlideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCEF1D6927207AE900F0C158 /* SlideCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA31B96A2D37B431303D4EC /* Pods_justChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A760F9178D3FA6429E978A9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				032318D0C81EE4E9312BDCBA /* Pods-justChat.debug.xcconfig */,
+				D1C9E162954F6DF5F59E68A3 /* Pods-justChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD06D09F01E9474C9B5506D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB8A7639FD6FA5F5541D3D12 /* Pods_justChat.framework */,
+			);
+			name = Frameworks;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
 		DC310C6B27205D23006FF590 = {
 			isa = PBXGroup;
 			children = (
 				DC310C7627205D23006FF590 /* justChat */,
 				DC310C7527205D23006FF590 /* Products */,
+				A760F9178D3FA6429E978A9A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,71 @@
 		DC310C7627205D23006FF590 /* justChat */ = {
 			isa = PBXGroup;
 			children = (
-				DC310C7727205D23006FF590 /* AppDelegate.swift */,
+				DC310C8F27207045006FF590 /* Controller */,
+				DC310C8E2720703F006FF590 /* View */,
+				DC310C8D27207038006FF590 /* Model */,
 				DC310C7927205D23006FF590 /* SceneDelegate.swift */,
-				DC310C7B27205D23006FF590 /* ViewController.swift */,
-				DC310C7D27205D23006FF590 /* Main.storyboard */,
 				DC310C8027205D24006FF590 /* Assets.xcassets */,
+				DC310C7D27205D23006FF590 /* Main.storyboard */,
+				DC310C7727205D23006FF590 /* AppDelegate.swift */,
 				DC310C8227205D24006FF590 /* LaunchScreen.storyboard */,
-				DC310C8527205D24006FF590 /* Info.plist */,
+				DC310C8B27205EAF006FF590 /* GoogleService-Info.plist */,
 			);
 			path = justChat;
+			sourceTree = "<group>";
+		};
+		DC310C8D27207038006FF590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BF6C72721500400855262 /* Model.swift */,
+				DC8BF6C927215D6500855262 /* SliderSlides.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC310C8E2720703F006FF590 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCEF1D6727207A9000F0C158 /* Slide */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC310C8F27207045006FF590 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC310C9327207205006FF590 /* App */,
+				DC310C92272071EB006FF590 /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC310C92272071EB006FF590 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DC310C90272071CD006FF590 /* LoginViewController.swift */,
+				DC8BF6CB27215F6100855262 /* RegViewController.swift */,
+				DC8BF6CD27215F7300855262 /* AuthViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DC310C9327207205006FF590 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BF6CF2721612200855262 /* AppViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DCEF1D6727207A9000F0C158 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				AD06D09F01E9474C9B5506D6 /* Frameworks */,
+				DCEF1D6827207AE900F0C158 /* SlideCollectionViewCell.swift */,
+				DCEF1D6927207AE900F0C158 /* SlideCollectionViewCell.xib */,
+			);
+			path = Slide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC310C8827205D24006FF590 /* Build configuration list for PBXNativeTarget "justChat" */;
 			buildPhases = (
+				01FCCDEC5D1B8A3F6E51A1A7 /* [CP] Check Pods Manifest.lock */,
 				DC310C7027205D23006FF590 /* Sources */,
 				DC310C7127205D23006FF590 /* Frameworks */,
 				DC310C7227205D23006FF590 /* Resources */,
+				393400DE4B47D03EB6FEAD5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC310C8427205D24006FF590 /* LaunchScreen.storyboard in Resources */,
+				DCEF1D6B27207AE900F0C158 /* SlideCollectionViewCell.xib in Resources */,
+				DC310C8C27205EAF006FF590 /* GoogleService-Info.plist in Resources */,
 				DC310C8127205D24006FF590 /* Assets.xcassets in Resources */,
 				DC310C7F27205D23006FF590 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +231,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01FCCDEC5D1B8A3F6E51A1A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-justChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		393400DE4B47D03EB6FEAD5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-justChat/Pods-justChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-justChat/Pods-justChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-justChat/Pods-justChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC310C7027205D23006FF590 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC310C7C27205D23006FF590 /* ViewController.swift in Sources */,
+				DC8BF6C82721500400855262 /* Model.swift in Sources */,
+				DCEF1D6A27207AE900F0C158 /* SlideCollectionViewCell.swift in Sources */,
+				DC8BF6CA27215D6500855262 /* SliderSlides.swift in Sources */,
+				DC310C91272071CD006FF590 /* LoginViewController.swift in Sources */,
+				DC8BF6CE27215F7300855262 /* AuthViewController.swift in Sources */,
 				DC310C7827205D23006FF590 /* AppDelegate.swift in Sources */,
+				DC8BF6D02721612200855262 /* AppViewController.swift in Sources */,
 				DC310C7A27205D23006FF590 /* SceneDelegate.swift in Sources */,
+				DC8BF6CC27215F6100855262 /* RegViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +430,14 @@
 		};
 		DC310C8927205D24006FF590 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032318D0C81EE4E9312BDCBA /* Pods-justChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU6RTL5NN9;
 				INFOPLIST_FILE = justChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +445,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SergeyMedvedev.justChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DC310C8A27205D24006FF590 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C9E162954F6DF5F59E68A3 /* Pods-justChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU6RTL5NN9;
 				INFOPLIST_FILE = justChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SergeyMedvedev.justChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
