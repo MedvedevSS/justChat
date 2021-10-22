@@ -224,6 +224,9 @@
                                         <state key="normal">
                                             <imageReference key="image" image="xmark" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="closeVC:" destination="Df4-i7-L1O" eventType="touchUpInside" id="cOn-Qg-Hlj"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.44705882349999998" green="0.58431372550000005" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -363,6 +366,9 @@
                                         <state key="normal">
                                             <imageReference key="image" image="xmark" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <connections>
+                                            <action selector="closeVC:" destination="pvl-Hg-2s0" eventType="touchUpInside" id="6SJ-30-qVc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.44705882349999998" green="0.58431372550000005" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

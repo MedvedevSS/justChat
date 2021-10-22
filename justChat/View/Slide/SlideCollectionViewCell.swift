@@ -8,11 +8,13 @@
 import UIKit
 
 class SlideCollectionViewCell: UICollectionViewCell {
-
+    static let reuceId = "SlideCollectionViewCell"
+    var delegate: LoginViewControllerDelegate!
+    
     @IBOutlet weak var slideImg: UIImageView!
     @IBOutlet weak var regBtn: UIButton!
     @IBOutlet weak var authBtn: UIButton!
-    static let reuceId = "SlideCollectionViewCell"
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -28,10 +30,10 @@ class SlideCollectionViewCell: UICollectionViewCell {
     }
     
     @IBAction func regBtnClick(_ sender: Any) {
-        
+        delegate.openRegVC()
     }
     @IBAction func authBtnClick(_ sender: Any) {
-        
+        delegate.openAuthVC()
     }
     
 }
